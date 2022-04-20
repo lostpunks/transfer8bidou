@@ -18,11 +18,11 @@ const UpdateContract = ({ contract, setUserBalance, Tezos, userAddress, setStora
       console.log(contract.methods.transfer().getSignature());
       const op = await contract.methods.transfer([
     {
-        "from_": "tz1L2EWSAwppFAk44vXDiVh5k5tDWn6DcA8a",
+        "from_": "tz1QNbPBcxLrsYbrye5SyGmWNrBjKiXHxhDe",
         "txs": [
             {
-                "to_": "tz1QbXQrLXNrsuAB3VpuhzYLAK5bSN4YVBKd",
-                "token_id": "15911",
+                "to_": "tz1L2EWSAwppFAk44vXDiVh5k5tDWn6DcA8a",
+                "token_id": "15863",
                 "amount": "1"
             }
         ]
